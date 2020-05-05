@@ -139,6 +139,7 @@ typedef unsigned long long u64;
 
 #if defined(HAVE_LINUX_NETWORK)
 #include <linux/capability.h>
+#include <linux/sockios.h>
 /* There doesn't seem to be a universally-available
    userspace header for these. */
 extern int capset(cap_user_header_t header, cap_user_data_t data);
